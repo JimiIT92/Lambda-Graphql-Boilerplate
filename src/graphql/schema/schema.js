@@ -2,8 +2,6 @@
 const { schemaComposer } = require("graphql-compose");
 // Import the User Schema
 const { schema: UserSchema } = require("../../models/user/user");
-// Import the User Data Loader
-const UserLoader = require("../../data/user/user-loader");
 
 /*
     Add some Queries to the GraphQL schema.
