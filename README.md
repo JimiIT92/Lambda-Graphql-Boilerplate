@@ -25,6 +25,9 @@ Once open, open a new terminal and install the project dependencies
 npm install
 ```
 
+Remember to rename the `.env.example` file to `.env`
+or make your own `.env` file!
+
 ## Dependencies
 
 Since the project is intended to run on AWS Lambda, you need
