@@ -1,0 +1,29 @@
+service: lambda-graphql-boilerplate
+
+plugins:
+  - serverless-offline
+  - serverless-dotenv-plugin
+
+provider:
+  name: aws
+  region: eu-central-1
+  runtime: nodejs12.x
+  memorySize: 384
+  timeout: 15
+  logRetentionInDays: 1
+
+functions:
+  graphql:
+    handler: src/index.handler
+    name: lambda-graphql-boilerplate
+    description: Boilerplate code for a GraphQL Lambda service
+    reservedConcurrency: 10
+    events:
+      - http:
+          path: graphql
+          method: POST
+          cors: true
+      - http:
+          path: graphql
+          method: GET
+          cors: true
