@@ -4,6 +4,10 @@ Boilerplate code to make a fast GraphQL Apollo Server
 running on AWS Lambda. Just add in your models/resolvers
 and you are good to go! 😁
 
+<p align="center">
+  <img src="logo.png" />
+</p>
+
 ## Install
 
 Clone this repository on your local machine
