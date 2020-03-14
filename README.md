@@ -13,7 +13,7 @@ and you are good to go! 😁
 Clone this repository on your local machine
 
 ```
-git clone https://github.com/GimignanoF/Lambda-Graphql-Boilerplate
+git clone https://github.com/JimiIT92/Lambda-Graphql-Boilerplate
 ```
 
 Open the project in your favorite IDE or text editor
