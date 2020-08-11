@@ -44,4 +44,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## 📜 License
 
-© 2019, Ecom Imaging s.r.l. This project, source code or any part of it can't be distributed on other platforms or companies.
+Licensed under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, share and edit this code as you wish 😁
