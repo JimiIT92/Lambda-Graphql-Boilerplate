@@ -1,7 +1,7 @@
 # Lambda GraphQL Boilerplate
 
 Boilerplate code to make a fast GraphQL Apollo Server
-running on AWS Lambda. Just add in your models/resolvers
+running on AWS Lambda interfacing with a MongoDB Database. Just add in your models/resolvers
 and you are good to go! 😁
 
 <p align="center">
